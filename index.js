@@ -9,7 +9,7 @@ if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
 } else {
   puppeteer = require("puppeteer");
 }
-app.get('/tekst',async (req,res)=>{ res.send("Hello World") }); 
+app.get('/tekst',async (req,res)=>{ res.send("Hello World albo Gra") }); 
 
 app.get("/api", async (req, res) => {
   let options = {};
